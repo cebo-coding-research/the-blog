@@ -196,7 +196,7 @@ a {
     transition-delay: 2s;
 }
 #descriptor {
-    font-family: "The Seasons";
+    font-family: "The-Seasons";
     font-size: 52px;
     font-weight: bold;
     margin: 30 0 40 0;
@@ -232,7 +232,7 @@ a {
     width: 48%;
 }
 .sub-heading-container {
-    font-family: "The Seasons";
+    font-family: "The-Seasons";
     font-size: 28px;
     font-weight: bold;
     line-height: 1.35;
@@ -260,7 +260,7 @@ a {
     margin-bottom: 30px;
 }
 #footer-container {
-    font-family: "The Seasons";
+    font-family: "The-Seasons";
     font-size: 22px;
 }
 #lower-footer-row {
@@ -373,5 +373,6 @@ a {
 .topic-container {
     width: 330px;
 }
+
 
 
