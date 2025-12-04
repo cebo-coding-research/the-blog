@@ -107,7 +107,7 @@ p::selection {
     animation: color-switch-text linear forwards;
     animation-timeline: view();
     animation-range-start: 84vh;
-    animation-range-end: 190vh;
+    animation-range-end: 200vh;
 }
 svg {
     width: 100%;
@@ -117,7 +117,7 @@ svg {
     animation: color-switch-text linear forwards;
     animation-timeline: view();
     animation-range-start: 84vh;
-    animation-range-end: 185vh;
+    animation-range-end: 200vh;
 }
 a {
     display: block;
