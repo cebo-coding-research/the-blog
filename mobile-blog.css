@@ -45,6 +45,7 @@
 html {
     scroll-behavior: smooth;
     overflow-x: clip;
+    overflow-anchor: auto;
 }
 body {
     font-family: "Lora";
