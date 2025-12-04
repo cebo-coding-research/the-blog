@@ -40,7 +40,6 @@
     15%, 25%, 50%, 70% {
         color: transparent;
         fill: transparent;
-        opacity: 0;
     }   
 }
 html {
@@ -97,7 +96,7 @@ p::selection {
     font-size: 24px;
     animation: color-switch linear forwards;
     animation-timeline: view();
-    animation-range-start: 175vh;
+    animation-range-start: 170vh;
     animation-range-end: 185vh;
 }
 #navbar-container a {
@@ -107,8 +106,8 @@ p::selection {
     padding-right: 20px;
     animation: color-switch-text linear forwards;
     animation-timeline: view();
-    animation-range-start: 110vh;
-    animation-range-end: 210vh;
+    animation-range-start: 140vh;
+    animation-range-end: 185vh;
 }
 svg {
     width: 100%;
@@ -117,8 +116,8 @@ svg {
 #navbar-container svg g {
     animation: color-switch-text linear forwards;
     animation-timeline: view();
-    animation-range-start: 110vh;
-    animation-range-end: 210vh;
+    animation-range-start: 140vh;
+    animation-range-end: 185vh;
 }
 a {
     display: block;
@@ -173,7 +172,7 @@ a {
     position: absolute;
     flex-direction: column;
     width: 82vw;
-    bottom: 10vh;
+    bottom: 40vh;
     animation: fade-out-container linear forwards;
     animation-timeline: view();
     animation-range: exit;
@@ -223,9 +222,6 @@ a {
     animation-timeline: view();
     animation-range: exit;
     transform-origin: bottom;
-}
-.paragraph-container p, .paragraph-container img {
-    animation-range-end: 200px;
 }
 #content-container img {
     width: 100%;
