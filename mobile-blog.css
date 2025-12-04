@@ -37,7 +37,7 @@
     }
 }
 @keyframes color-switch-text {
-    15%, 25%, 50%, 70% {
+    12%, 25%, 50%, 70% {
         color: transparent;
         fill: transparent;
     }   
@@ -107,7 +107,7 @@ p::selection {
     padding-right: 20px;
     animation: color-switch-text linear forwards;
     animation-timeline: view();
-    animation-range-start: 84vh;
+    animation-range-start: 80vh;
     animation-range-end: 200vh;
 }
 svg {
@@ -117,7 +117,7 @@ svg {
 #navbar-container svg g {
     animation: color-switch-text linear forwards;
     animation-timeline: view();
-    animation-range-start: 84vh;
+    animation-range-start: 80vh;
     animation-range-end: 200vh;
 }
 a {
@@ -202,9 +202,8 @@ a {
 }
 #descriptor {
     font-family: "The-Seasons";
-    font-size: 54px;
+    font-size: 52px;
     line-height: 1.15;
-    margin: 30 0 40 0;
     transition-delay: 1s;
 }
 #content-container {
