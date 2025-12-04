@@ -106,7 +106,7 @@ p::selection {
     padding-right: 20px;
     animation: color-switch-text linear forwards;
     animation-timeline: view();
-    animation-range-start: 120vh;
+    animation-range-start: 90vh;
     animation-range-end: 185vh;
 }
 svg {
@@ -116,7 +116,7 @@ svg {
 #navbar-container svg g {
     animation: color-switch-text linear forwards;
     animation-timeline: view();
-    animation-range-start: 120vh;
+    animation-range-start: 90vh;
     animation-range-end: 185vh;
 }
 a {
