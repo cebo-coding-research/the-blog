@@ -107,7 +107,7 @@ p::selection {
     padding-right: 20px;
     animation: color-switch-text linear forwards;
     animation-timeline: view();
-    animation-range-start: 80vh;
+    animation-range-start: 90vh;
     animation-range-end: 200vh;
 }
 svg {
@@ -117,7 +117,7 @@ svg {
 #navbar-container svg g {
     animation: color-switch-text linear forwards;
     animation-timeline: view();
-    animation-range-start: 80vh;
+    animation-range-start: 90vh;
     animation-range-end: 200vh;
 }
 a {
@@ -202,7 +202,7 @@ a {
 }
 #descriptor {
     font-family: "The-Seasons";
-    font-size: 52px;
+    font-size: 50px;
     line-height: 1.15;
     transition-delay: 1s;
 }
