@@ -12,7 +12,7 @@
 }
 @keyframes fade-in-down {
     from {
-        translate: 0 -35px;
+        translate: 0 -5.9vh;
         opacity: 0;
     }
     to {
@@ -37,7 +37,7 @@
     }
 }
 @keyframes color-switch-text {
-    12%, 25%, 50%, 70% {
+    15%, 25%, 50%, 70% {
         color: transparent;
         fill: transparent;
     }   
@@ -50,7 +50,7 @@ html {
 body {
     font-family: "Lora";
     font-weight: 400;
-    font-size: 18px;
+    font-size: 3.1vh;
     color: #000000c2;
     line-height: 1.25;
     word-break: break-word;
@@ -94,30 +94,30 @@ p::selection {
     width: 100%;
     height: auto;
     background-color: transparent;
-    font-size: 24px;
     animation: color-switch linear forwards;
     animation-timeline: view();
-    animation-range-start: 170vh;
-    animation-range-end: 185vh;
+    animation-range-start: 180vh;
+    animation-range-end: 195vh;
 }
 #navbar-container a {
     font-family: "Montserrat";
+    font-size: 4.4vh;
     font-weight: bold;
     color: white;
     padding-right: 20px;
     animation: color-switch-text linear forwards;
     animation-timeline: view();
-    animation-range-start: 110vh;
+    animation-range-start: 100vh;
     animation-range-end: 195vh;
 }
 svg {
     width: 100%;
-    height: 38px;
+    height: 6.5vh;
 }
 #navbar-container svg g {
     animation: color-switch-text linear forwards;
     animation-timeline: view();
-    animation-range-start: 110vh;
+    animation-range-start: 94vh;
     animation-range-end: 195vh;
 }
 a {
@@ -127,7 +127,7 @@ a {
 }
 #navbar-row {
     justify-content: space-between;
-    padding: 15 0 15 0;
+    padding: 2.5vh 0;
     width: 82vw;
 }
 #homelink-container {
@@ -148,7 +148,7 @@ a {
     transition-duration: 2s;
     transition-timing-function: ease-in-out;
     width: 100%;
-    height: 750px;
+    height: 120vh;
     overflow-x: clip;
     align-items: center;
     @starting-style {
@@ -173,7 +173,7 @@ a {
     position: absolute;
     flex-direction: column;
     width: 82vw;
-    bottom: 18vh;
+    bottom: 25%;
     animation: fade-out-container linear forwards;
     animation-timeline: view();
     animation-range: exit;
@@ -194,21 +194,22 @@ a {
 }
 #title, #name {
     font-family: "Montserrat";
-    font-size: 24px;
+    font-size: 4.3vh;
     margin: 0 0;
 }
 #name {
     transition-delay: 2s;
 }
 #descriptor {
+    margin: 8.5vh 0;
     font-family: "The-Seasons";
-    font-size: 50px;
+    font-size: 9.8vh;
     line-height: 1.15;
     transition-delay: 1s;
 }
 #content-container {
-    margin-top: 80px;
-    margin-bottom: 100px;
+    margin-top: 13.5vh;
+    margin-bottom: 16.8vh;
     line-height: 1.6;
 }
 .sub-heading-container p, .paragraph-container p, .paragraph-container img {
@@ -225,7 +226,7 @@ a {
 }
 #content-container img {
     width: 100%;
-    margin: 30 0;
+    margin: 5vh 0;
     opacity: 0;
 }
 #content-container .container {
@@ -234,17 +235,17 @@ a {
 }
 .sub-heading-container {
     font-family: "Montserrat";
-    font-size: 24px;
+    font-size: 4.3vh;
     font-weight: bold;
     line-height: 1.35;
     color: #7e5f2b;
 }
 .sub-heading-container p {
-    margin: 10 0;
+    margin: 1.7vh 0;
     opacity: 0;
 }
 .paragraph-container p {
-    margin: 35 0;
+    margin: 5.9vh 0;
     opacity: 0;
 }
 .paragraph-container a, #references a {
@@ -252,21 +253,21 @@ a {
     text-decoration: underline;
     display: inline;
 }
-.paragraph-container a:hover, #references a:hover {
+.paragraph-container a:hover, #references a:hover, .paragraph-container a:active, #references a:active {
     color: #1b6223;
 }
 #conclusion {
-    margin-top: 5px;
+    margin-top: 0.85vh;
 }
 #references {
-    padding-top: 50px;
+    padding-top: 8.5vh;
 }
 #sub-heading-7 {
-    margin-bottom: 30px;
+    margin-bottom: 5vh;
 }
 #footer-container {
     font-family: "The-Seasons";
-    font-size: 24px;
+    font-size: 4.4vh;
 }
 #lower-footer-row {
     background-color: #1b6223;
@@ -300,11 +301,11 @@ a {
 }
 .button svg {
     width: 100%;
-    height: 38px;
+    height: 6.4vh;
 }
 #hidden-menu-container {
     font-family: "Montserrat";
-    font-size: 16px;
+    font-size: 2.7vh;
     width: 100%;
     background-color: #ffffff;
     box-shadow: 0 5px 8px 3px rgba(0,0,0,.14);
@@ -333,7 +334,7 @@ a {
     background-color: #1b6223;
     color: #ffffff;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 5vh;
 }
 #menu-heading-container p {
     margin: 20;
@@ -342,7 +343,7 @@ a {
     display: flex;
     align-items: center;
     width: 100%;
-    height: 70px;
+    height: 11.6vh;
     transition: 0.4s;
 }
 .option-container:hover, .option-container:active {
@@ -354,27 +355,22 @@ a {
     transition: 0.2s;
 }
 .option-container a {
+    display: flex;
+    justify-content: center;
     width: -webkit-fill-available;
     height: -webkit-fill-available;
-    padding: 25 30 25 20;
+    padding: 4.0vh 5vh 4.0vh 3.4vh;
     color: black;
-    width: 395px;
 }
-#topic-1, #topic-3 {
-    padding: 15 20;
-}
-.option-container:hover a {
+.option-container:hover a, .option-container:active a {
     color: white;
 }
 .color-band {
-    width: 5px;
+    width: 7px;
     height: 100%;
     background-color: #1b6223;
 }
-.option-container:hover .color-band {
+.option-container:hover .color-band, .option-container:active .color-band {
     background-color: #000000;
     opacity: 0.4;
-}
-.topic-container {
-    width: 330px;
 }
