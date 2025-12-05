@@ -12,7 +12,7 @@
 }
 @keyframes fade-in-down {
     from {
-        translate: 0 -5.9vh;
+        translate: 0 -4vh;
         opacity: 0;
     }
     to {
@@ -50,7 +50,8 @@ html {
 body {
     font-family: "Lora";
     font-weight: 400;
-    font-size: 3.1vh;
+    font-size: 1.9vh;
+    background-color: white;
     color: #000000c2;
     line-height: 1.25;
     word-break: break-word;
@@ -101,23 +102,23 @@ p::selection {
 }
 #navbar-container a {
     font-family: "Montserrat";
-    font-size: 4.4vh;
+    font-size: 3.1vh;
     font-weight: bold;
     color: white;
     padding-right: 20px;
     animation: color-switch-text linear forwards;
     animation-timeline: view();
-    animation-range-start: 100vh;
+    animation-range-start: 110vh;
     animation-range-end: 195vh;
 }
 svg {
     width: 100%;
-    height: 6.5vh;
+    height: 4.5vh;
 }
 #navbar-container svg g {
     animation: color-switch-text linear forwards;
     animation-timeline: view();
-    animation-range-start: 94vh;
+    animation-range-start: 104vh;
     animation-range-end: 195vh;
 }
 a {
@@ -148,7 +149,7 @@ a {
     transition-duration: 2s;
     transition-timing-function: ease-in-out;
     width: 100%;
-    height: 120vh;
+    height: 110vh;
     overflow-x: clip;
     align-items: center;
     @starting-style {
@@ -173,7 +174,6 @@ a {
     position: absolute;
     flex-direction: column;
     width: 82vw;
-    bottom: 25%;
     animation: fade-out-container linear forwards;
     animation-timeline: view();
     animation-range: exit;
@@ -194,22 +194,22 @@ a {
 }
 #title, #name {
     font-family: "Montserrat";
-    font-size: 4.3vh;
+    font-size: 2.9vh;
     margin: 0 0;
 }
 #name {
     transition-delay: 2s;
 }
 #descriptor {
-    margin: 8.5vh 0;
+    margin: 5.5vh 0;
     font-family: "The-Seasons";
-    font-size: 9.8vh;
+    font-size: 6vh;
     line-height: 1.15;
     transition-delay: 1s;
 }
 #content-container {
-    margin-top: 13.5vh;
-    margin-bottom: 16.8vh;
+    margin-top: 10vh;
+    margin-bottom: 14vh;
     line-height: 1.6;
 }
 .sub-heading-container p, .paragraph-container p, .paragraph-container img {
@@ -226,7 +226,7 @@ a {
 }
 #content-container img {
     width: 100%;
-    margin: 5vh 0;
+    margin: 1.9vh 0;
     opacity: 0;
 }
 #content-container .container {
@@ -235,17 +235,17 @@ a {
 }
 .sub-heading-container {
     font-family: "Montserrat";
-    font-size: 4.3vh;
+    font-size: 2.4vh;
     font-weight: bold;
     line-height: 1.35;
     color: #7e5f2b;
 }
 .sub-heading-container p {
-    margin: 1.7vh 0;
+    margin: 1.2vh 0;
     opacity: 0;
 }
 .paragraph-container p {
-    margin: 5.9vh 0;
+    margin: 3.8vh 0;
     opacity: 0;
 }
 .paragraph-container a, #references a {
@@ -257,23 +257,23 @@ a {
     color: #1b6223;
 }
 #conclusion {
-    margin-top: 0.85vh;
+    margin-top: 4.6vh;
 }
 #references {
-    padding-top: 8.5vh;
+    padding-top: 5vh;
 }
 #sub-heading-7 {
-    margin-bottom: 5vh;
+    margin-bottom: 3.5vh;
 }
 #footer-container {
     font-family: "The-Seasons";
-    font-size: 4.4vh;
+    font-size: 2.85vh;
 }
 #lower-footer-row {
     background-color: #1b6223;
     color: #ffffff;
     justify-content: space-between;
-    padding: 5 50 5 40;
+    padding: 5 10vw 5 8vw;
 }
 #lower-footer-row p {
     margin: 15 0 15 0;
@@ -284,7 +284,7 @@ a {
 }
 #bg-leaves-2 {
     position: relative;
-    height: 15vh;
+    height: 9vh;
     width: 100%;
     overflow: hidden;
 }
@@ -301,11 +301,11 @@ a {
 }
 .button svg {
     width: 100%;
-    height: 6.4vh;
+    height: 4.5vh;
 }
 #hidden-menu-container {
     font-family: "Montserrat";
-    font-size: 2.7vh;
+    font-size: 2.15vh;
     width: 100%;
     background-color: #ffffff;
     box-shadow: 0 5px 8px 3px rgba(0,0,0,.14);
@@ -343,7 +343,7 @@ a {
     display: flex;
     align-items: center;
     width: 100%;
-    height: 11.6vh;
+    height: 11.2vh;
     transition: 0.4s;
 }
 .option-container:hover, .option-container:active {
@@ -355,12 +355,13 @@ a {
     transition: 0.2s;
 }
 .option-container a {
-    display: flex;
-    justify-content: center;
-    width: -webkit-fill-available;
+    width: 80%;
     height: -webkit-fill-available;
-    padding: 4.0vh 5vh 4.0vh 3.4vh;
+    padding: 2.5vh 3.5vh 2.5vh 2.4vh;
     color: black;
+}
+#topic-5 {
+    padding: 3.65vh 3.5vh 3.65vh 2.4vh;
 }
 .option-container:hover a, .option-container:active a {
     color: white;
