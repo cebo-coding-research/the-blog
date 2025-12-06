@@ -58,14 +58,17 @@ body {
     margin: 0;
     transition: 0.4s;
 }
+#page {
+    display: none;
+}
 #pre-loader {
     display: block;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: #ffffff url("pre-loader.gif") no-repeat center center;
-    background-size: 80%;
+    background-size: 13vw;
     position: fixed;
-    z-index: 100;
+    z-index: 300;
 }
 .container {
     display: flex;
